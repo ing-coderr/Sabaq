@@ -211,7 +211,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     return ConversationHandler.END
 
 def main():
-    TOKEN = 'Bul_Token_Ushin_Orin'
+    TOKEN = 'Buljerde_token_boliwi_kk'
     application = Application.builder().token(TOKEN).build()
 
     application.add_handler(PreCheckoutQueryHandler(pre_checkout_callback))
